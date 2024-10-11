@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task Manager</title>
+</head>
+<body>
+<h1>Task Manager</h1>
+<p>Add task</p>
+<form id="taskForm" method="POST" action="/">
+    <label for="taskName">Task Name</label>
+    <input type="text" name="taskName" id="taskName" placeholder="Task name">
+
+    <input type="submit" value="Add task">
+</form>
+
+<ul id="taskList" class="taskList">
+</ul>
+
+<script src="/views/js/index.js"></script>
+</body>
+</html>
